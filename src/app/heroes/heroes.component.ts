@@ -9,8 +9,8 @@ import { HEROES } from '../mock-heroes';
   selector: 'app-heroes',
   templateUrl: './heroes.component.html',
   styleUrls: ['./heroes.component.css'],
+  standalone: false,
   /*
-  standalone: true,
   imports: [FormsModule, NgIf, NgFor, UpperCasePipe],
   */
 })
