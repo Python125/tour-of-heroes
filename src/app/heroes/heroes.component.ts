@@ -11,7 +11,7 @@ import { HEROES } from '../mock-heroes';
   styleUrls: ['./heroes.component.css'],
   standalone: false,
   /*
-  imports: [FormsModule, NgIf, NgFor, UpperCasePipe],
+  imports: [FormsModule, NgIf, NgFor, UpperCasePipe], //TS-992010: 'imports' is only valid on a component that is standalone.
   */
 })
 export class HeroesComponent {
